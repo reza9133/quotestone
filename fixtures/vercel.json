@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "functions": {"api/serve.js": {"memory": 256, "maxDuration": 10, "includeFiles": "pages.js"}},
+  "rewrites": [{"source": "/(.*)", "destination": "/api/serve.js"}]
+}
