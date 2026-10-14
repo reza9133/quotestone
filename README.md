@@ -87,9 +87,14 @@ tests/                           Unit, behavior, adversarial and fixture-driven 
 tests/sim/genlayer.py            Local runtime simulator used by the tests
 fixtures/                        Public evidence fixture (three scenarios) and digest tool
 docs/PROTOCOL.md                 Rules, permissions and data model
+docs/LIVE_TEST_REPORT.md          StudioNet run: one dossier attested and re-checked
 docs/TESTING.md                  Verification, deployment and live-run walkthrough
 gltest.config.yaml               StudioNet project configuration
 ```
+
+## Live run
+
+Contract `0x69DeE8f8891d2B9B5d408178Dd13fCfDbD2DE359` on StudioNet took one dossier from `open_dossier` through `attest` and `recheck` (`INTACT`). Transactions and the source digest are in [docs/LIVE_TEST_REPORT.md](docs/LIVE_TEST_REPORT.md).
 
 ## Local verification
 
